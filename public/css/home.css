@@ -1,0 +1,50 @@
+/* Main */
+
+main{
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* Banner */
+.banner {
+    display: none;
+}
+
+/* Card */
+
+.card {
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.card .card-content{
+    border-top: 1px solid var(--color-grisClaro);
+    padding: 15px;
+    position: relative;
+}
+
+
+.card .card-content h6 {
+    display: none;
+}
+
+.card .card-content .icono-truck{
+    border: 3px solid var(--color-verde);
+    border-radius: 50%;
+    padding: 10px;
+    width: fit-content;
+}
+
+.card .card-content .icono-truck i{
+    color: var(--color-verde);
+}
+
+@media (min-width: 361px){
+    .card{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100); /* Primer parametro = Pixeles en eje x  Segundo parametro =pixeles en y  Tercer Parametro= expansion de la sombra  Cuarto Parametro = color*/
+    }
+
+    .card .card-content h6 {
+        display: block;
+    }
+}

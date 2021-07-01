@@ -1,0 +1,20 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--color-grisClaro);
+    font-family: var(--font-roboto);
+
+}
+
+li{
+    list-style: none;
+}

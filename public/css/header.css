@@ -1,0 +1,65 @@
+/* HEADER */
+header {
+    background-color: var(--color-amarillo);
+    font-size: var(--paragraph);
+    padding-bottom: 10px;
+}
+
+header .burger-menu{
+    background-color: var(--color-celeste);
+    border-radius: 5px;
+    color: white;
+    margin: 10px auto 0 auto;
+    padding: 7px;
+    text-align: center;
+    width: 15px;
+    
+}
+
+header .logo {
+    margin-left: 25px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+    width: 130px;
+}
+
+header p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Bav */
+nav {
+    display: none;
+}
+
+.ml-15{
+    margin-left: 15px;
+}
+
+#top-list {
+    margin-bottom: 10px;
+}
+
+footer div  {
+    text-align: center;
+}
+
+.svg {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+/* Search Bar */
+.search-bar{
+    display: inline-block;
+}
+/* Media Queries */
+@media (min-width: 361px){
+    nav{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
+}
